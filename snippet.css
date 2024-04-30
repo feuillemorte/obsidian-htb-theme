@@ -1,0 +1,68 @@
+.theme-dark {
+    --background-primary: #141d2b;
+    --text-normal: #a4b1cd;
+    --blockquote-background-color: #212e3e;
+    --blockquote-border-color: #212e3e;
+}
+
+.cm-header, .inline-title {
+    color: #cad2e2;
+}
+
+.cm-inline-code, .code-block-flair{ 
+    color: #9fef00 !important;
+    background-color: transparent !important;
+}
+
+.HyperMD-quote {
+    text-indent: -10px !important;
+    padding: 1.25rem !important;
+}
+
+.HyperMD-codeblock {
+    background-color: var(--background-primary) !important;
+    border-width: 0px 3px 0px 3px !important;
+    border-color: #1a2332;
+    border-style: solid;
+}
+
+.HyperMD-codeblock-begin {
+    padding: 5px !important;
+    background: #1a2332 !important;
+    box-sizing: border-box !important;
+    content: "Code: ";
+
+    border-width: 2px 2px 2px 0px !important;
+    border-color: #1a2332;
+    border-style: solid;
+    border-radius: 5px 0 0 0;
+}
+
+.HyperMD-codeblock-begin + .HyperMD-codeblock{
+    padding-top: 15px !important;
+}
+
+.HyperMD-codeblock-end {
+    background: #141d2b !important;
+    border-width: 0px 2px 2px 2px !important;
+    border-color: #1a2332;
+    border-style: solid;
+    border-radius: 0 0 5px 0;
+}
+
+.code-block-flair::before {
+    content: "Code: ";
+    color: var(--text-normal);
+}
+
+.code-block-flair {
+    right: auto;
+}
+
+.workspace-leaf-content {
+    background-color: #111927;
+}
+
+.nav-folder-title-content, .nav-file-title-content {
+    color: #e5e8f1;
+}
