@@ -66,3 +66,48 @@
 .nav-folder-title-content, .nav-file-title-content {
     color: #e5e8f1;
 }
+
+.mod-root > .tree-item-children > .tree-item:nth-child(2) .tree-item-self {
+    background-color: #1b2639;
+}
+
+.mod-root > .tree-item-children > .tree-item:nth-child(3) .tree-item-self {
+    background-color: #547e86bf;
+}
+.mod-root > .tree-item-children > .tree-item:nth-child(3) .tree-item-self .collapse-icon svg.svg-icon {
+    color: black;
+}
+
+.mod-root > .tree-item-children > .tree-item:nth-child(4) .tree-item-self {
+    background-color: #36527c;
+}
+.mod-root > .tree-item-children > .tree-item:nth-child(4) .tree-item-self .collapse-icon svg.svg-icon {
+    color: black;
+}
+
+.mod-root > .tree-item-children > .tree-item:nth-child(5) .tree-item-self {
+    background-color: #554971;
+}
+.mod-root > .tree-item-children > .tree-item:nth-child(5) .tree-item-self .collapse-icon svg.svg-icon {
+    color: black;
+}
+
+.mod-root > .tree-item-children > .tree-item:nth-child(6) .tree-item-self {
+    background-color: #36213E;
+}
+
+.mod-root > .tree-item-children > .tree-item:nth-child(7) .tree-item-self {
+    background-color: #561717;
+}
+
+.mod-root > .tree-item-children > .tree-item:nth-child(8) .tree-item-self {
+    background-color: #825e00;
+}
+
+.mod-root > .tree-item-children > .tree-item:nth-child(9) .tree-item-self {
+    background-color: #294a00;
+}
+
+.mod-root > .tree-item-children > .tree-item:nth-child(10) .tree-item-self {
+    background-color: #003b16;
+}
